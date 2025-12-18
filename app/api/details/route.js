@@ -1,5 +1,5 @@
 
-import { tmdb } from '../../../../lib/tmdb';
+import { tmdb } from '../../../lib/tmdb';
 
 export async function GET(req) {
   const { searchParams } = new URL(req.url);
