@@ -1,5 +1,5 @@
 
-import { tmdb } from '@/lib/tmdb';
+import { tmdb } from '../../../../lib/tmdb';
 
 function pick(list, lang) {
   return list.find(i => i.iso_639_1 === lang)
